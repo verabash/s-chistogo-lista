@@ -1,0 +1,210 @@
+.body {
+    width: 360px;
+    background-color: black;
+    margin: 0;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.top-block {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 18px 0px 20px;
+}
+
+.navbar {
+    font-family: "Inter Regular";
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.navbar a {
+    font-size: 16px;
+    color: white;
+    line-height: 19px;
+}
+
+.navbar a:first-of-type {
+    text-decoration: none !important;
+}
+
+.logo {
+    background: url(../../images/logo.svg);
+    width: 78px;
+    height: 15px;
+    background-repeat: no-repeat;
+}
+
+.main-title {
+    font-family: "EB Garamond Regular";
+    margin-top: -20px;
+}
+
+.main-title h1 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 221px;
+    gap: 0;
+    background: url(../../images/polygen.svg), url(../../images/ellipse.svg);
+    background-repeat: no-repeat;
+    background-position-y: 30px, bottom;
+    background-position-x: right, left;
+}
+
+.main-title :last-of-type {
+    display: flex;
+    justify-content: end;
+}
+
+.main-title span:nth-child(even) {
+    display: flex;
+    justify-content: center;
+}
+
+.main-title span {
+    font-size: 72px;
+    margin: 0;
+    line-height: 72px;
+}
+
+
+.entry {
+    font-family: "Inter Regular";
+    color: white;
+    display: flex;
+}
+
+
+
+.black-block {
+    color: white;
+
+}
+
+.yellow-block {
+    background-color: yellow;
+}
+
+.black-block,
+.yellow-block {
+    padding: 38px 20px;
+}
+
+.article-title h2 {
+    font-family: "EB Garamond Medium";
+    display: flex;
+    flex-direction: column;
+}
+
+.article-title span:first-child {
+    text-align: end;
+}
+
+.article-title span {
+    font-size: 28px;
+    margin: 0;
+    line-height: 32px;
+}
+
+ul {
+    font-family: "Inter Regular";
+    padding: 0 20px;
+}
+
+b {
+    font-family: "Inter Bold";
+}
+
+.intro-text {
+    font-family: "Inter Regular";
+    font-size: 20px;
+    margin: 32px 0;
+    line-height: 27px;
+}
+
+.person-name {
+    font-family: "Inter Bold";
+    font-size: 16px;
+    margin: 8px 0;
+}
+
+.person-photo img {
+    width: 100px;
+    height: 100px;
+}
+
+.personal-advice {
+    background: #343434;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.text-in-frame {
+    font-family: "Inter Regular";
+    font-size: 16px;
+    line-height: 22px;
+}
+
+h3,
+h4,
+h5 {
+    font-family: "EB Garamond Medium";
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.frame {
+    background: #FEE42A;
+    color: black;
+    border-radius: 30px;
+    margin: 32px 0;
+    padding: 20px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    height: 62px;
+    border-top: 1px solid #FEE42A;
+    margin-top: 60px;
+}
+
+.bottom-block {
+    font-family: "Inter Regular";
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: whitesmoke;
+    line-height: 22px;
+}
+
+.social {
+    font-size: 14px;
+    color: whitesmoke;
+    text-decoration: none;
+    line-height: 16px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+.span {
+    display: block;
+}
