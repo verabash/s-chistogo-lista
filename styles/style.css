@@ -112,6 +112,7 @@ h6 {
 
 
 .black-block {
+    padding: 0px;
     color: white;
     font-family: "Inter";
     font-weight: 700;
