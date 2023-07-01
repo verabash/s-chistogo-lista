@@ -71,7 +71,6 @@ h6 {
     padding-top: 24px;
     padding-left: 20px;
     padding-right: 20px;
-    padding-bottom: 0px;
     font-weight: 400;
     color: white;
     display: flex;
@@ -102,6 +101,7 @@ h6 {
 
 
 .entry {
+   
     font-family: "Inter";
     font-weight: 700;
     color: white;
@@ -112,7 +112,7 @@ h6 {
 
 
 .black-block {
-    padding: 0px;
+    padding-top: 0px;
     color: white;
     font-family: "Inter";
     font-weight: 700;
