@@ -215,8 +215,8 @@ h5 {
 .footer {
     display: flex;
     flex-direction: column;
-    padding: 20px;
-    min-height: 62px;
+    padding: 10px;
+    max-height: 62px;
     border-top: 1px solid #FEE42A;
     margin-top: 0px;
 }
