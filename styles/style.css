@@ -28,7 +28,6 @@ h6 {
 .header {
     display: flex;
     flex-direction: column;
-    padding-bottom: 0px;
 
 }
 
@@ -102,6 +101,7 @@ h6 {
 
 
 .entry {
+    padding-top: 0px;
     font-family: "Inter";
     font-weight: 700;
     color: white;
@@ -127,7 +127,8 @@ h6 {
 
 .black-block,
 .yellow-block {
-    padding: 20px;
+    padding: 0px 20px;
+    padding-bottom: 38px;
     height: 100%;
 }
 
