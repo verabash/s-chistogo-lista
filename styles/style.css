@@ -196,12 +196,12 @@ ul li {
 .personal-advice {
     background: #343434;
     border-radius: 30px;
-    padding: 10px 20px;
+    padding: 5px 20px;
     max-height: 540px;
 }
 
 .personal {
-    max-height: 460px;
+    max-height: 470px;
 }
 
 .text-in-frame {
