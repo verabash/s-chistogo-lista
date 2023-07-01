@@ -178,6 +178,7 @@ ul li {
 }
 
 .person-photo img {
+    padding-top: 5px;
     width: 100px;
     min-height: 100px;
 }
@@ -203,6 +204,7 @@ h5 {
     font-weight: 500;
     font-size: 22px;
     line-height: 30px;
+    padding-top: 5px;
 }
 
 .frame {
@@ -216,7 +218,7 @@ h5 {
 .footer {
     display: flex;
     flex-direction: column;
-    padding: 15px;
+    padding: 12px;
     max-height: 62px;
     border-top: 1px solid #FEE42A;
     margin-top: 0px;
