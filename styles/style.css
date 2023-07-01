@@ -1,14 +1,17 @@
 .wrapper {
     margin: 0 auto;
     width: 360px;
+    height: 100%;
 }
 
 .body {
     font-family: "Inter";
     background-color: #1e1e1e;
-    min-height: 4160px;
+    max-height: 4160px;
     margin: 0;
     padding: 0;
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -25,6 +28,7 @@ h6 {
 .header {
     display: flex;
     flex-direction: column;
+    max-height: 885px;
 }
 
 .top-block {
@@ -64,6 +68,10 @@ h6 {
 }
 
 .main-title h1 {
+    padding-top: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 400;
     color: white;
     display: flex;
     flex-direction: column;
@@ -93,6 +101,7 @@ h6 {
 
 
 .entry {
+    padding-top: 0px;
     font-family: "Inter";
     font-weight: 700;
     color: white;
@@ -101,26 +110,34 @@ h6 {
     line-height: 22px;
 }
 
-
+.entry-text p {
+    padding-top: 10px;
+    line-height: 20px;
+}
 
 .black-block {
     color: white;
     font-family: "Inter";
     font-weight: 700;
+    height: 100%;
 }
 
 .yellow-block {
     background-color: #FEE42A;
     max-height: 1368px;
     height: 100%;
+    
 }
 
 .black-block,
 .yellow-block {
-    padding: 38px 20px;
+    padding: 0px 20px;
+    padding-bottom: 38px;
+    height: 100%;
 }
 
 .article-title h2 {
+    padding-top: 38px;
     font-family: "EB Garamond";
     font-weight: 500;
     display: flex;
@@ -140,17 +157,20 @@ h6 {
 ul {
     font-family: "Inter";
     font-weight: 700;
-    padding: 0 20px;
+    padding: 10px;
+    padding-bottom: 0px;
 }
 
 ul li {
-    font-size: 20px;
-    line-height: 27px;
+    font-size: 16px;
+    line-height: 21px;
     margin-bottom: 16px;
 }
 .list-accent {
     font-family: "Inter";
     font-weight: 400;
+    font-size: 16px;
+    list-style: 27px;
 }
 
 .intro-text {
@@ -169,6 +189,7 @@ ul li {
 }
 
 .person-photo img {
+    padding-top: 10px;
     width: 100px;
     min-height: 100px;
 }
@@ -176,10 +197,16 @@ ul li {
 .personal-advice {
     background: #343434;
     border-radius: 30px;
-    padding: 20px;
+    padding: 5px 20px;
+    max-height: 540px;
+}
+
+.personal {
+    max-height: 470px;
 }
 
 .text-in-frame {
+    margin-top: 5px;
     font-family: "Inter";
     font-weight: 700;
     font-size: 16px;
@@ -193,6 +220,7 @@ h5 {
     font-weight: 500;
     font-size: 22px;
     line-height: 30px;
+    padding-top: 2px;
 }
 
 .frame {
@@ -200,16 +228,16 @@ h5 {
     color: black;
     border-radius: 30px;
     margin: 32px 0;
-    padding: 20px;
+    padding: 10px 20px;
 }
 
 .footer {
     display: flex;
     flex-direction: column;
     padding: 20px;
-    min-height: 62px;
+    max-height: 62px;
     border-top: 1px solid #FEE42A;
-    margin-top: 60px;
+    margin-top: 0px;
 }
 
 .bottom-block {
