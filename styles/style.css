@@ -110,6 +110,9 @@ h6 {
     line-height: 22px;
 }
 
+.entry-text p{
+    padding-top: 24px;
+}
 
 .black-block {
     color: white;
