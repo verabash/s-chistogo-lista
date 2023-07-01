@@ -7,7 +7,7 @@
 .body {
     font-family: "Inter";
     background-color: #1e1e1e;
-    min-height: 4160px;
+    max-height: 4160px;
     margin: 0;
     padding: 0;
     width: 100%;
@@ -116,6 +116,8 @@ h6 {
 .yellow-block {
     background-color: #FEE42A;
     min-height: 1368px;
+    height: 100%;
+    
 }
 
 .black-block,
@@ -148,13 +150,15 @@ ul {
 }
 
 ul li {
-    font-size: 20px;
-    line-height: 27px;
+    font-size: 16px;
+    line-height: 22px;
     margin-bottom: 16px;
 }
 .list-accent {
     font-family: "Inter";
     font-weight: 400;
+    font-size: 16px;
+    list-style: 27px;
 }
 
 .intro-text {
