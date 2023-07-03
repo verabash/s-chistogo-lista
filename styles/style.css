@@ -195,7 +195,7 @@ ul li {
 .personal-advice {
     background: #343434;
     border-radius: 30px;
-    padding: 5px 20px;
+    padding: 10px 20px;
     max-height: 540px;
 }
 
@@ -236,7 +236,7 @@ h5 {
     max-height: 62px;
     border-top: 1px solid #FEE42A;
     margin-top: 0px;
-    margin-top: 28px;
+    margin-top: 30px;
 }
 
 .bottom-block {
