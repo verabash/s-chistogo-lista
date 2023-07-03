@@ -187,7 +187,7 @@ ul li {
 }
 
 .person-photo img {
-    padding-top: 10px;
+    padding-top: 12px;
     width: 100px;
     min-height: 100px;
 }
@@ -226,7 +226,7 @@ h5 {
     color: black;
     border-radius: 30px;
     margin: 32px 0;
-    padding: 10px 20px;
+    padding: 9px 20px;
 }
 
 .footer {
@@ -236,7 +236,7 @@ h5 {
     max-height: 62px;
     border-top: 1px solid #FEE42A;
     margin-top: 0px;
-    margin-top: 27px;
+    margin-top: 28px;
 }
 
 .bottom-block {
