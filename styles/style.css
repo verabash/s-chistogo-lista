@@ -253,12 +253,17 @@ h5 {
     justify-content: space-between;
     color: whitesmoke;
     line-height: 22px;
+
+}
+
+.madia {
+    display: flex;
+    gap: 10px;
 }
 
 .social {
     font-size: 14px;
     font-weight: 700;
-    justify-content: space-between;
     color: whitesmoke;
     text-decoration: none;
     line-height: 16px;
