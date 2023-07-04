@@ -195,13 +195,13 @@ ul li {
 }
 
 .personal-advice {
+    margin-top: 10px;
     background: #343434;
     border-radius: 30px;
     padding: 15px 20px;
 }
 
 .personal {
-    margin-top: 10px;
     max-height: 495px;
 }
 
