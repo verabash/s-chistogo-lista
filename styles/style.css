@@ -123,7 +123,7 @@ h6 {
 
 .yellow-block {
     background-color: #FEE42A;
-    min-height: 1367px;
+    max-height: 1367px;
     height: 100%;
 }
 
@@ -177,7 +177,7 @@ ul li {
     font-weight: 700;
     font-size: 20px;
     margin: 30px 0;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
     line-height: 27px;
 }
 
@@ -195,7 +195,6 @@ ul li {
 }
 
 .personal-advice {
-    margin-top: 15px;
     background: #343434;
     border-radius: 30px;
     padding: 15px 20px;
