@@ -207,7 +207,7 @@ ul li {
 }
 
 .text-in-frame {
-    /* margin-top: 0px; */
+    margin-top: 5px;
     font-family: "Inter";
     font-weight: 700;
     font-size: 16px;
