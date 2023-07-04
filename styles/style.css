@@ -199,7 +199,7 @@ ul li {
 }
 
 .personal {
-    max-height: 495px;
+    max-height: 493px;
 }
 
 .bunin {
@@ -207,7 +207,7 @@ ul li {
 }
 
 .text-in-frame {
-    margin-top: 5px;
+    /* margin-top: 0px; */
     font-family: "Inter";
     font-weight: 700;
     font-size: 16px;
