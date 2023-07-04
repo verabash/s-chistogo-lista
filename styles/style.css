@@ -203,7 +203,7 @@ ul li {
 }
 
 .bunin {
-    max-height: 550px;
+    max-height: 540px;
 }
 
 .text-in-frame {
@@ -221,7 +221,7 @@ h5 {
     font-weight: 500;
     font-size: 22px;
     line-height: 30px;
-    padding-top: 2px;
+    padding-top: 3px;
 }
 
 .frame {
