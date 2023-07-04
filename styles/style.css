@@ -207,7 +207,7 @@ ul li {
 }
 
 .text-in-frame {
-    margin-top: 10px;
+    margin-top: 5px;
     font-family: "Inter";
     font-weight: 700;
     font-size: 16px;
@@ -229,7 +229,7 @@ h5 {
     color: black;
     border-radius: 30px;
     margin: 32px 0;
-    padding: 9px 20px;
+    padding: 10px 20px;
     max-height: 368px;
 }
 
