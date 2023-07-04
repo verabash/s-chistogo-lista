@@ -39,7 +39,7 @@ h6 {
 
 .navbar {
     font-family: "Inter";
-    font-weight: 400;
+    font-weight: 700;
     display: flex;
     flex-direction: column;
     gap: 12px;
@@ -107,12 +107,11 @@ h6 {
     color: white;
     display: flex;
     font-size: 16px;
-    line-height: 22px;
 }
 
 .entry-text p {
     padding-top: 10px;
-    line-height: 20px;
+    line-height: 21px;
 }
 
 .black-block {
@@ -124,15 +123,14 @@ h6 {
 
 .yellow-block {
     background-color: #FEE42A;
-    max-height: 1368px;
+    max-height: 1367px;
     height: 100%;
-    
 }
 
 .black-block,
 .yellow-block {
     padding: 0px 20px;
-    padding-bottom: 38px;
+    padding-bottom: 30px;
     height: 100%;
 }
 
@@ -163,8 +161,9 @@ ul {
 
 ul li {
     font-size: 16px;
-    line-height: 21px;
+    line-height: 21.6px;
     margin-bottom: 16px;
+    padding-left: 2px;
 }
 .list-accent {
     font-family: "Inter";
@@ -177,15 +176,20 @@ ul li {
     font-family: "Inter";
     font-weight: 700;
     font-size: 20px;
-    margin: 32px 0;
+    margin: 30px 0;
+    margin-bottom: 30px;
     line-height: 27px;
+}
+
+.text {
+    padding-bottom: 6px;
 }
 
 .person-name {
     font-family: "Inter";
-    font-weight: 700;
+    font-weight: 400;
     font-size: 16px;
-    margin: 8px 0;
+    margin: 4px 0;
 }
 
 .person-photo img {
@@ -197,16 +201,22 @@ ul li {
 .personal-advice {
     background: #343434;
     border-radius: 30px;
-    padding: 5px 20px;
-    max-height: 540px;
+    padding: 15px 20px;
 }
 
 .personal {
-    max-height: 470px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    max-height: 495px;
+}
+
+.bunin {
+    max-height: 540px;
 }
 
 .text-in-frame {
-    margin-top: 5px;
+    margin-top: 3px;
+    margin-bottom: 0px;
     font-family: "Inter";
     font-weight: 700;
     font-size: 16px;
@@ -220,7 +230,7 @@ h5 {
     font-weight: 500;
     font-size: 22px;
     line-height: 30px;
-    padding-top: 2px;
+    padding-top: 3px;
 }
 
 .frame {
@@ -228,16 +238,18 @@ h5 {
     color: black;
     border-radius: 30px;
     margin: 32px 0;
-    padding: 10px 20px;
+    padding: 15px 20px;
+    padding-bottom: 20px;
+    max-height: 368px;
 }
 
 .footer {
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 15px;
     max-height: 62px;
     border-top: 1px solid #FEE42A;
-    margin-top: 0px;
+    margin-top: 32px;
 }
 
 .bottom-block {
@@ -249,10 +261,17 @@ h5 {
     justify-content: space-between;
     color: whitesmoke;
     line-height: 22px;
+
+}
+
+.madia {
+    display: flex;
+    gap: 20px;
 }
 
 .social {
     font-size: 14px;
+    font-weight: 700;
     color: whitesmoke;
     text-decoration: none;
     line-height: 16px;
