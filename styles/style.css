@@ -201,10 +201,12 @@ ul li {
 .personal-advice {
     background: #343434;
     border-radius: 30px;
-    padding: 16px 20px;
+    padding: 15px 20px;
 }
 
 .personal {
+    padding-top: 20px;
+    padding-bottom: 20px;
     max-height: 495px;
 }
 
