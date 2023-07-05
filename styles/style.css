@@ -79,7 +79,7 @@ h6 {
     gap: 0;
     background: url(../images/polygen.svg), url(../images/ellipse.svg);
     background-repeat: no-repeat;
-    background-position-y: 30px, bottom;
+    background-position-y: 40px, bottom;
     background-position-x: right, left;
 }
 
@@ -205,7 +205,6 @@ ul li {
 }
 
 .personal {
-    padding-bottom: 2px;
     max-height: 495px;
 }
 
