@@ -79,8 +79,8 @@ h6 {
     gap: 0;
     background: url(../images/polygen.svg), url(../images/ellipse.svg);
     background-repeat: no-repeat;
-    background-position-y: 35px, bottom;
-    background-position-x: right, 21px;
+    background-position-y: 36px, bottom;
+    background-position-x: right, 20px;
 }
 
 .text-right {
