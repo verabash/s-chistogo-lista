@@ -106,12 +106,12 @@ h6 {
     font-weight: 700;
     color: white;
     display: flex;
+    gap: 10px;
     font-size: 16px;
 }
 
 .date {
     max-width: 101px;
-    margin-right: 10px;
 }
 
 .entry-text p {
