@@ -1,0 +1,292 @@
+.wrapper {
+    margin: 0 auto;
+    width: 360px;
+    height: 100%;
+}
+
+.body {
+    font-family: "Inter";
+    background-color: #1e1e1e;
+    max-height: 4160px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    max-height: 885px;
+}
+
+.top-block {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 18px 0px 20px;
+}
+
+.navbar {
+    font-family: "Inter";
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.navbar a {
+    font-size: 16px;
+    color: white;
+    line-height: 20px;
+}
+
+.navbar a:first-of-type {
+    text-decoration: none;
+}
+
+.logo {
+    background: url(../images/logo.svg);
+    width: 78px;
+    min-height: 15px;
+    background-repeat: no-repeat;
+}
+
+.main-title {
+    font-family: "EB Garamond";
+    font-weight: 500;
+}
+
+.main-title h1 {
+    padding-top: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 400;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 221px;
+    gap: 0;
+    background: url(../images/polygen.svg), url(../images/ellipse.svg);
+    background-repeat: no-repeat;
+    background-position-y: 32px, bottom;
+    background-position-x: right, 20px;
+}
+
+.text-right {
+    display: flex;
+    justify-content: end;
+}
+
+.text-center {
+    display: flex;
+    justify-content: center;
+}
+
+.main-title span {
+    font-size: 72px;
+    margin: 0;
+    line-height: 72px;
+}
+
+
+.entry {
+    padding-top: 0px;
+    font-family: "Inter";
+    font-weight: 700;
+    color: white;
+    display: flex;
+    gap: 10px;
+    font-size: 16px;
+}
+
+.date {
+    display: block;
+    width: 180px;
+    line-height: 33px;
+}
+
+.block-title {
+    display: block;
+    line-height: 19px;
+    margin-top: 6px;
+}
+
+.entry-text p {
+    padding-top: 10px;
+    line-height: 22px;
+    margin-bottom: 15px;
+}
+
+.black-block {
+    color: white;
+    font-family: "Inter";
+    font-weight: 700;
+    height: 100%;
+}
+
+.yellow-block {
+    background-color: #FEE42A;
+    max-height: 1367px;
+    height: 100%;
+}
+
+.black-block,
+.yellow-block {
+    padding: 0px 20px;
+    padding-bottom: 22px;
+    height: 100%;
+}
+
+.article-title h2 {
+    padding-top: 41px;
+    font-family: "EB Garamond";
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+}
+
+.article-title span:first-child {
+    text-align: end;
+}
+
+.article-title span {
+    font-size: 28px;
+    margin: 0;
+    line-height: 32px;
+}
+
+ul {
+    font-family: "Inter";
+    font-weight: 700;
+    padding-left: 16px;
+}
+
+ul li {
+    font-size: 16px;
+    line-height: 21.6px;
+    margin-bottom: 16px;
+}
+.list-accent {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 16px;
+    list-style: 27px;
+}
+
+.intro-text {
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 20px;
+    margin: 32px 0;
+    margin-bottom: 30px;
+    line-height: 27px;
+}
+
+.text {
+    padding-bottom: 6px;
+}
+
+.person-name {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 16px;
+    margin: 4px 0;
+}
+
+.person-photo img {
+    padding-top: 10px;
+    width: 100px;
+    min-height: 100px;
+}
+
+.personal-advice {
+    background: #343434;
+    border-radius: 30px;
+    padding: 12px 20px;
+    margin-top: -5px;
+}
+
+
+.text-in-frame {
+    margin-top: 7px;
+    margin-bottom: 8px;
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21.6px;
+    max-width: 279px;
+
+}
+
+h3,
+h4,
+h5 {
+    font-family: "EB Garamond";
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 30px;
+    padding-top: 3px;
+}
+
+.frame {
+    background: #FEE42A;
+    color: black;
+    border-radius: 30px;
+    margin: 33px 0;
+    padding: 18px 20px;
+    padding-bottom: 15px;
+    max-height: 368px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    max-height: 62px;
+    border-top: 1px solid #FEE42A;
+    margin-top: 37px;
+}
+
+.bottom-block {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: whitesmoke;
+    line-height: 22px;
+
+}
+
+.madia {
+    display: flex;
+    gap: 20px;
+}
+
+.social {
+    font-size: 14px;
+    font-weight: 700;
+    color: whitesmoke;
+    text-decoration: none;
+    line-height: 16px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+.span {
+    display: block;
+}
