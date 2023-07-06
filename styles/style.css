@@ -110,6 +110,7 @@ h6 {
     font-size: 16px;
 }
 
+
 .date {
     display: block;
     width: 180px;
@@ -176,6 +177,7 @@ ul li {
     font-size: 16px;
     line-height: 21.6px;
     margin-bottom: 16px;
+    padding-left: 2px;
 }
 .list-accent {
     font-family: "Inter";
@@ -221,6 +223,8 @@ ul li {
 .text-in-frame {
     margin-top: 7px;
     margin-bottom: 8px;
+    margin-top: 3px;
+    margin-bottom: 0px;
     font-family: "Inter";
     font-weight: 700;
     font-size: 16px;
