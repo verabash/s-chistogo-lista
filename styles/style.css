@@ -48,7 +48,7 @@ h6 {
 .navbar a {
     font-size: 16px;
     color: white;
-    line-height: 19px;
+    line-height: 20px;
 }
 
 .navbar a:first-of-type {
@@ -68,7 +68,7 @@ h6 {
 }
 
 .main-title h1 {
-    padding-top: 18px;
+    padding-top: 12px;
     padding-left: 20px;
     padding-right: 20px;
     font-weight: 400;
@@ -111,12 +111,21 @@ h6 {
 }
 
 .date {
-    max-width: 101px;
+    display: block;
+    width: 180px;
+    line-height: 33px;
+}
+
+.block-title {
+    display: block;
+    line-height: 19px;
+    margin-top: 6px;
 }
 
 .entry-text p {
     padding-top: 10px;
-    line-height: 21px;
+    line-height: 22px;
+    margin-bottom: 15px;
 }
 
 .black-block {
@@ -135,12 +144,12 @@ h6 {
 .black-block,
 .yellow-block {
     padding: 0px 20px;
-    padding-bottom: 30px;
+    padding-bottom: 22px;
     height: 100%;
 }
 
 .article-title h2 {
-    padding-top: 38px;
+    padding-top: 41px;
     font-family: "EB Garamond";
     font-weight: 500;
     display: flex;
@@ -160,15 +169,13 @@ h6 {
 ul {
     font-family: "Inter";
     font-weight: 700;
-    padding: 10px;
-    padding-bottom: 0px;
+    padding-left: 16px;
 }
 
 ul li {
     font-size: 16px;
     line-height: 21.6px;
     margin-bottom: 16px;
-    padding-left: 2px;
 }
 .list-accent {
     font-family: "Inter";
@@ -181,7 +188,7 @@ ul li {
     font-family: "Inter";
     font-weight: 700;
     font-size: 20px;
-    margin: 30px 0;
+    margin: 32px 0;
     margin-bottom: 30px;
     line-height: 27px;
 }
@@ -206,24 +213,20 @@ ul li {
 .personal-advice {
     background: #343434;
     border-radius: 30px;
-    padding: 15px 20px;
+    padding: 12px 20px;
+    margin-top: -5px;
 }
 
-.personal {
-    max-height: 495px;
-}
-
-.bunin {
-    max-height: 540px;
-}
 
 .text-in-frame {
-    margin-top: 3px;
-    margin-bottom: 0px;
+    margin-top: 7px;
+    margin-bottom: 8px;
     font-family: "Inter";
     font-weight: 700;
     font-size: 16px;
-    line-height: 22px;
+    line-height: 21.6px;
+    max-width: 279px;
+
 }
 
 h3,
@@ -240,19 +243,19 @@ h5 {
     background: #FEE42A;
     color: black;
     border-radius: 30px;
-    margin: 32px 0;
-    padding: 15px 20px;
-    padding-bottom: 20px;
+    margin: 33px 0;
+    padding: 18px 20px;
+    padding-bottom: 15px;
     max-height: 368px;
 }
 
 .footer {
     display: flex;
     flex-direction: column;
-    padding: 15px;
+    padding: 20px;
     max-height: 62px;
     border-top: 1px solid #FEE42A;
-    margin-top: 32px;
+    margin-top: 37px;
 }
 
 .bottom-block {
